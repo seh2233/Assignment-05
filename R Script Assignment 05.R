@@ -1,0 +1,5 @@
+library (data.table)
+DF <- data.frame(fread("fredgraph.csv"))
+str(DF)
+#Data_Frame.data <- data.frame(DF)
+#str(Data_Frame.data)
